@@ -1,0 +1,28 @@
+<style>
+    h1 {text-align: center;}
+</style>
+
+<h1>User Cards</h1>
+<div class="row ml-2 mr-2 justify-content-center">
+    <div class="col-8">
+        <div class="row">
+            <div class="col-4 mt-3" *ngFor="let user of users">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">
+                            <a class="btn btn-outline-success btn-lg" [routerLink]="['/user/', user.id]">
+                                {{user.fullname}}
+                            </a>
+                        </h5>
+                            <!-- <li class="list-group-item">
+                                Email: {{user.email}}
+                            </li> -->
+                            <li class="list-group-item">
+                                Joined On: {{user.joinedOn | date:'yyyy-MM-dd'}}
+                            </li>
+                        
+                  </div>
+            </div>
+        </div>
+    </div>
+</div>

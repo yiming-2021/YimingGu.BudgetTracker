@@ -1,0 +1,7 @@
+form {
+    overflow: hidden;
+  }
+  input {
+    float: right;
+    clear: both;
+  }
