@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
+import { NgForm } from '@angular/forms';
 import { ActivatedRoute, Router } from '@angular/router';
 import { UserService } from 'src/app/core/services/user.service';
-
 import { User } from 'src/app/shared/models/user';
-import { NgForm } from '@angular/forms';
+
 
 
 @Component({

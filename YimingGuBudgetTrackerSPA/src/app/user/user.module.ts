@@ -6,6 +6,9 @@ import { UserDetailsComponent } from './user-details/user-details.component';
 import { UpdateUserComponent } from './update-user/update-user.component';
 import { UserComponent } from './user.component';
 import { UserRoutingModule } from './user-routing.module';
+import { FormsModule } from '@angular/forms';
+import { IncomesComponent } from './incomes/incomes.component';
+
 
 
 
@@ -14,11 +17,16 @@ import { UserRoutingModule } from './user-routing.module';
     UserComponent,
     AddUserComponent,
     UserDetailsComponent,
-    UpdateUserComponent
+    UpdateUserComponent,
+    IncomesComponent
   ],
   imports: [
     CommonModule,
-    UserRoutingModule
+    UserRoutingModule,
+    FormsModule,
+
   ]
 })
+
 export class UserModule { }
+
