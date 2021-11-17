@@ -35,6 +35,19 @@ INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (1,320
 INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (1,3200.0000,'Monthly Income','2021-03-11 00:00:00.000','None');
 INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (1,3200.0000,'Monthly Income','2021-04-11 00:00:00.000','None');
 INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (1,3200.0000,'Monthly Income','2021-05-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,15000.0000,'Signing Bonus','2021-01-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,3400.0000,'Monthly Income','2021-02-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,3400.0000,'Monthly Income','2021-03-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,4000.0000,'Monthly Income','2021-04-12 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,4000.0000,'Monthly Income','2021-05-01 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,4100.0000,'Monthly Income','2021-06-01 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (3,4050.0000,'Monthly Income','2021-07-01 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (4,2050.0000,'Monthly Income','2021-05-01 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (4,2050.0000,'Monthly Income','2021-06-01 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (4,3200.0000,'Monthly Income','2021-02-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (4,3200.0000,'Monthly Income','2021-03-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (4,3200.0000,'Monthly Income','2021-04-11 00:00:00.000','None');
+INSERT INTO Income(UserId,Amount,[Description],IncomeDate,Remarks) VALUES (4,3200.0000,'Monthly Income','2021-05-11 00:00:00.000','None');
 
 
 
