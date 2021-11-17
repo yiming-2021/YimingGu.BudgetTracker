@@ -25,3 +25,6 @@ Following are some screenshots of the UI of this single-page application.
 * HOME Page
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/HomePage.jpg)
+
+* Add User
+![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/AddUser.jpg)
