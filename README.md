@@ -4,7 +4,7 @@ This a web application to track the budget, developed with technologies Angular,
 While this is still a simplified version of the application right now. The views are basically all from the admin's end, and the main features are enabling the user (admin) to conduct CRUD operations on the tables in the database. 
 
 
-### Database
+## Database
 The BudgetTracker database contains 3 tables: User, Income and Expenditure. The ER diagram is displayed as follows. The database is generated through the migration feature in Entity Framework Core. The data can be found in the BudgetTracker_insertdata.sql file.
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/ER.jpg)
@@ -14,14 +14,14 @@ The BudgetTracker database contains 3 tables: User, Income and Expenditure. The 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/usertable.jpg)
 
 
-### APIs
+## APIs
 Web APIs were created with ASP.NET Core as follows. They were repectively under 3 controllers. 
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/API1.png)
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/API2.png)
 
 
-### SPA
+## SPA
 
 Following displays the screenshots of some of the UIs:
 
@@ -47,3 +47,8 @@ Following displays the screenshots of some of the UIs:
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/UserExpenditureDetails.jpg)
 
+
+
+## Potential Improvements in Future Versions
+* Users (other than admin) should be able to log in, and view the their budget data or edit their own profiles after authenticated. 
+* Dashboards should contain pie charts and bar charts to visualize the data, like the relationships between incomes, expenditures and time. 
