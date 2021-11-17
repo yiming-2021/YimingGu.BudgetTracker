@@ -35,7 +35,10 @@ namespace YimingGu.BudgetTrackerAPI
             services.AddControllers();
             services.AddScoped<IUserService, UserService>();
             services.AddScoped<IUserRepository, UserRepository>();
-            
+            services.AddScoped<IIncomeRepository, IncomeRepository>();
+            services.AddScoped<IIncomeService, IncomeService>();
+            services.AddScoped<IExpRepository, ExpRepository>();
+            services.AddScoped<IExpService, ExpService>();
             
             services.AddHttpContextAccessor(); 
             services.AddDbContext<BudgetTrackerDbContext>(

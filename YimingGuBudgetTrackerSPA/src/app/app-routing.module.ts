@@ -11,8 +11,19 @@ const routes: Routes = [
     path: "user", 
     loadChildren: () => 
     import("./user/user.module").then(mod => mod.UserModule)
-  }
+  },
 
+  {
+    path: "income", 
+    loadChildren: () => 
+    import("./income/income.module").then(mod => mod.IncomeModule)
+  },
+
+  {
+    path: "expenditure", 
+    loadChildren: () => 
+    import("./expenditure/expenditure.module").then(mod => mod.ExpenditureModule)
+  }
 ];
 
 @NgModule({

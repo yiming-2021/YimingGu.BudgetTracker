@@ -4,7 +4,7 @@ using YimingGu.BudgetTracker.Infrastructure.Data;
 
 namespace YimingGu.BudgetTracker.Infrastructure.Repositories
 {
-    public class ExpRepository: EfRepository<Income>, IIncomeRepository
+    public class ExpRepository: EfRepository<Expenditure>, IExpRepository
     {
         
         public ExpRepository(BudgetTrackerDbContext dbContext) : base(dbContext)

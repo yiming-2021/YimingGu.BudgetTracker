@@ -22,56 +22,56 @@ namespace YimingGu.BudgetTrackerAPI.Controllers
         [Route("add")]
         public async Task<IActionResult> AddUser([FromBody] UserRequestModel model)
         {
-            var customer = await _userService.CreateUser(model);
-            return Ok(customer);
+            var user = await _userService.CreateUser(model);
+            return Ok(user);
         }
 
         [HttpDelete]
         [Route("delete/{id:int}")]
         public async Task<IActionResult> DeleteUser(int id)
         {
-            var customer = await _userService.DeleteUser(id);
-            if (customer == null)
+            var user = await _userService.DeleteUser(id);
+            if (user == null)
             {
                 return BadRequest("User Not Found");
             }
-            return Ok(customer);
+            return Ok(user);
         }
 
         [HttpGet]
         [Route("{id:int}")]
         public async Task<IActionResult> GetUserById(int id)
         {
-            var customer = await _userService.GetUserById(id);
-            if (customer == null)
+            var user = await _userService.GetUserById(id);
+            if (user == null)
             {
                 return NotFound("User Not Found");
             }
-            return Ok(customer);
+            return Ok(user);
         }
 
         [HttpGet]
         [Route("all")]
         public async Task<IActionResult> ListAllUser()
         {
-            var customers = await _userService.ListAllUser();
-            if (!customers.Any())
+            var users = await _userService.ListAllUser();
+            if (!users.Any())
             {
                 return NotFound("User Not Found");
             }
-            return Ok(customers);
+            return Ok(users);
         }
 
         [HttpPut]
         [Route("update")]
         public async Task<IActionResult> UpdateUser([FromBody] UserRequestModel model)
         {
-            var customer = await _userService.UpdateUser(model);
-            if (customer == null)
+            var user = await _userService.UpdateUser(model);
+            if (user == null)
             {
                 return BadRequest("User Not Found");
             }
-            return Ok(customer);
+            return Ok(user);
         }
         
         

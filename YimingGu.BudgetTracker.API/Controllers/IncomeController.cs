@@ -22,20 +22,20 @@ namespace YimingGu.BudgetTrackerAPI.Controllers
         [Route("add")]
         public async Task<IActionResult> AddIncome([FromBody] IncomeRequestModel model)
         {
-            var customer = await _incomeService.CreateIncome(model);
-            return Ok(customer);
+            var income = await _incomeService.CreateIncome(model);
+            return Ok(income);
         }
 
         [HttpDelete]
         [Route("delete/{id:int}")]
         public async Task<IActionResult> DeleteIncome(int id)
         {
-            var customer = await _incomeService.DeleteIncome(id);
-            if (customer == null)
+            var income = await _incomeService.DeleteIncome(id);
+            if (income == null)
             {
                 return BadRequest("Income Not Found");
             }
-            return Ok(customer);
+            return Ok(income);
         }
 
 
@@ -43,24 +43,24 @@ namespace YimingGu.BudgetTrackerAPI.Controllers
         [Route("all")]
         public async Task<IActionResult> ListAllIncome()
         {
-            var customers = await _incomeService.ListAllIncome();
-            if (!customers.Any())
+            var incomes = await _incomeService.ListAllIncome();
+            if (!incomes.Any())
             {
                 return NotFound("Income Not Found");
             }
-            return Ok(customers);
+            return Ok(incomes);
         }
 
         [HttpPut]
         [Route("update")]
         public async Task<IActionResult> UpdateIncome([FromBody] IncomeRequestModel model)
         {
-            var customer = await _incomeService.UpdateIncome(model);
-            if (customer == null)
+            var income = await _incomeService.UpdateIncome(model);
+            if (income == null)
             {
                 return BadRequest("Income Not Found");
             }
-            return Ok(customer);
+            return Ok(income);
         }
         
         

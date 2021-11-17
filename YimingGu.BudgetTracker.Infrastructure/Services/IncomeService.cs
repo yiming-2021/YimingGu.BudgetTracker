@@ -44,10 +44,10 @@ namespace YimingGu.BudgetTracker.Infrastructure.Services
 
         public async Task<IncomeRequestModel> DeleteIncome(int id)
         {
-            var exist = await _incomeRepository.GetExists(c => c.Id == id);
+            var exist = await _incomeRepository.GetExists(i => i.Id == id);
             if (!exist)
             {
-                throw new Exception($"Not Found Customer For Id={id}");
+                throw new Exception($"Not Found Income For Id={id}");
             }
 
             var income = await _incomeRepository.GetById(id);
@@ -92,7 +92,7 @@ namespace YimingGu.BudgetTracker.Infrastructure.Services
             var exist = await _incomeRepository.GetExists(c => c.Id == model.Id);
             if (!exist)
             {
-                throw new Exception($"Not Found Customer For Id={model.Id}");
+                throw new Exception($"Not Found Income For Id={model.Id}");
             }
 
             var income = new Income
@@ -104,7 +104,7 @@ namespace YimingGu.BudgetTracker.Infrastructure.Services
                 IncomeDate = model.IncomeDate,
                 Remarks = model.Remarks
             };
-            var updatedCustomer = await _incomeRepository.Update(income);
+            var updatedIncome = await _incomeRepository.Update(income);
             return model;
         }
 
