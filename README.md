@@ -1,9 +1,7 @@
 # Budget Tracker Application V1.0
 
 This a web application to track the budget, developed with technologies Angular, .Net Core Web API, Entity Framework Core, SQL Server Database. 
-While this is still a simplified version of the application right now. The views are basically all from the admin end, and the main features are enabling the user (admin) to conduct CRUD operations on the tables in the database. 
-
-
+While this is still a simplified version of the application right now. The views are basically all from the admin's end, and the main features are enabling the user (admin) to conduct CRUD operations on the tables in the database. 
 
 
 ### Database
