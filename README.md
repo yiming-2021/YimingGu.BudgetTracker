@@ -48,7 +48,7 @@ Following displays the screenshots of some of the UIs:
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/UserExpenditureDetails.jpg)
 
 
-* All Incomes
+* Incomes of all the users
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/allIncomes.jpg)
 
