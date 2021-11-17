@@ -14,7 +14,7 @@ The BudgetTracker database contains 3 tables: User, Income and Expenditure. The 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/usertable.jpg)
 
 
-## APIs
+## API
 Web APIs were created with ASP.NET Core as follows. They were repectively under 3 controllers. 
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/API1.png)
@@ -46,6 +46,11 @@ Following displays the screenshots of some of the UIs:
 * User Expenditure Details
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/UserExpenditureDetails.jpg)
+
+
+* All Incomes
+
+![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/allIncomes.jpg)
 
 
 
