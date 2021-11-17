@@ -21,10 +21,27 @@ Web APIs were created with ASP.NET Core as follows. They were repectively under 
 
 ### SPA
 
-Following are some screenshots of the UI of this single-page application.
+Following displays the screenshots of some of the UIs:
+
 * HOME Page
 
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/HomePage.jpg)
 
+* User Details
+ 
+![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/UserDetails.jpg)
+
 * Add User
+
 ![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/AddUser.jpg)
+
+
+* User Income Details
+
+![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/UserIncomeDetails.jpg)
+
+
+* User Expenditure Details
+
+![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/UserExpenditureDetails.jpg)
+
