@@ -20,3 +20,6 @@ Web APIs were created with ASP.NET Core as follows. They were repectively under 
 
 
 ### SPA
+
+
+![alt text](https://github.com/yiming-2021/YimingGu.BudgetTracker/blob/main/Screenshots/HomePage.jpg)
