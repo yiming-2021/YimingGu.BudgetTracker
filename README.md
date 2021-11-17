@@ -1,7 +1,7 @@
 # Budget Tracker Application V1.0
 
 This a web application to track the budget, developed with technologies Angular, .Net Core Web API, Entity Framework Core, SQL Server Database. 
-While this is still a simplified version of the application right now. The views are basically all from the admin's end, and the main features are enabling the user (admin) to conduct CRUD operations on the tables in the database. 
+While this is still a very primitive and simplified version of the application right now. The views are basically all from the admin's end, and the main features are enabling the user (admin) to conduct CRUD operations on the tables in the database. More expected features to be developed are listed in the end of this doc.
 
 
 ## Database
@@ -55,5 +55,6 @@ Following displays the screenshots of some of the UIs:
 
 
 ## Potential Improvements in Future Versions
-* Users (other than admin) should be able to log in, and view the their budget data or edit their own profiles after authenticated. 
+* Users (other than admin) should be able to log in to view the their budget data and edit their own profiles after authenticated. 
 * Dashboards should contain pie charts and bar charts to visualize the data, like the relationships between incomes, expenditures and time. 
+* More features regarding budget management.
