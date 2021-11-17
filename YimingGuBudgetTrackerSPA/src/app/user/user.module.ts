@@ -8,6 +8,7 @@ import { UserComponent } from './user.component';
 import { UserRoutingModule } from './user-routing.module';
 import { FormsModule } from '@angular/forms';
 import { IncomesComponent } from './incomes/incomes.component';
+import { ExpenditureComponent } from './expenditure/expenditure.component';
 
 
 
@@ -18,7 +19,8 @@ import { IncomesComponent } from './incomes/incomes.component';
     AddUserComponent,
     UserDetailsComponent,
     UpdateUserComponent,
-    IncomesComponent
+    IncomesComponent,
+    ExpenditureComponent
   ],
   imports: [
     CommonModule,

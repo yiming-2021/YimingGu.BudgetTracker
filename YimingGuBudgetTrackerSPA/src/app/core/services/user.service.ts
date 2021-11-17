@@ -48,7 +48,7 @@ export class UserService {
     return this.http.get<Income[]>(`${environment.apiBaseUrl}user/income/${id}`);
   }
 
-  getUserExpById(id: number):Observable<Expenditure[]>{
+  getUserExpenditureById(id: number):Observable<Expenditure[]>{
     return this.http.get<Expenditure[]>(`${environment.apiBaseUrl}user/expenditure/${id}`);
   }
 
